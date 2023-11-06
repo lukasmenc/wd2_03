@@ -1,133 +1,143 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
- <link rel="stylesheet" href="./css/style.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-  <body>
-    <nav class="navbar navbar-expand-md bg-info ">
-  <div class="container-fluid">
-    <a class="navbar-brand  text-white " href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-        <a class="nav-link text-white" href="#">Features</a>
-        <a class="nav-link  text-white" href="#">Pricing</a>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-info">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white" href="index.html">Chata U Uhelných Dolů</a> <button class="navbar-toggler"
+        type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"> <a class="nav-link active text-white" aria-current="page" href="galerie.html">Galerie</a> </li>
+          <li class="nav-item"> <a class="nav-link text-white" href="#">Ceník</a> </li>
+          <li class="nav-item"> <a class="nav-link text-white" href="#">Kontakty</a> </li>
+        </ul>
       </div>
     </div>
-  </div>
-</nav>
-<div class="container-md">
-<div id="carouselExampleAutoplaying" class="carousel slide  d-none d-md-block" data-bs-ride="carousel">
-    <div class="carousel-inner lh-1">
-      <div class="carousel-item active">
-        <img src="./images/chata2.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption">
+  </nav>
+  <div class="container-md">
+    <div id="carouselExampleAutoplaying" class="carousel slide  d-none d-md-block" data-bs-ride="carousel">
+      <div class="carousel-inner lh-1">
+        <div class="carousel-item active">
+          <img src="./images/chata2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h2 class="fw-bold">Chata U Uhelných Dolů</h2>
+            <p>Jestli chcete skvělou dovolenou s dostatečným množstvím piva</p>
+            <p>přišli jste na správné místo</p>
+          </div>
+        </div>
+        <div class="carousel-item lh-1">
+          <img src="./images/chata3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
             <h2 class="fw-bold">Chata U Svijan</h2>
             <p>Jestli chcete skvělou dovolenou s dostatečným množstvím piva</p>
             <p>přišli jste na správné místo</p>
           </div>
-      </div>
-      <div class="carousel-item lh-1">
-        <img src="./images/chata3.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        </div>
+        <div class="carousel-item lh-1">
+          <img src="./images/chata4.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
             <h2 class="fw-bold">Chata U Svijan</h2>
             <p>Jestli chcete skvělou dovolenou s dostatečným množstvím piva</p>
             <p>přišli jste na správné místo</p>
           </div>
+        </div>
       </div>
-      <div class="carousel-item lh-1">
-        <img src="./images/chata4.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-            <h2 class="fw-bold">Chata U Svijan</h2>
-            <p>Jestli chcete skvělou dovolenou s dostatečným množstvím piva</p>
-            <p>přišli jste na správné místo</p>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h2 class="fw-medium text-center mt-4">
+      Zimní luxus na vás čeká!
+    </h2>
+    <p class="fw-light text-center m-auto mb-4">
+      Zima je časem, kdy se mnoho z nás stahuje do tepla a pohodlí svých domovů.<br>
+      Tato kombinace horského ráje a lahodného piva je receptem na skvělé zimní dobrodružství.
+    </p>
+
+    </section>
+    <section class="row py-4">
+      <div class="col-md-3" data-aos="fade-up">
+        <div class="card">
+          <div class="d-flex align-center justify-content-center">
+            <img src="./images/chalet_FILL0_wght400_GRAD0_opsz24.svg" class="" alt="..." width="70">
           </div>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-medium">Útulná atmosféra</h5>
+            <p class="card-text fw-lighter"> Dřevěné stěny, krb, měkké deky a pohodlný nábytek vytvoří ideální prostředí
+              pro relaxaci,
+              kde si můžete vychutnat své oblíbené pivo.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <section class="bg-info opacity-50 mt-5 text-center p-3">
-    <div class="row ps-2">
-        <div class="px-2 col-md-3">
-            <img src="./images/postel.png" alt="" width="150">
-            <h3 class="text-white fw-bolder">8 lůžek</h3>
+      <div class="col-md-3" data-aos="fade-up">
+        <div class="card">
+          <div class="d-flex align-center justify-content-center">
+            <img src="./images/outdoor_grill_FILL0_wght400_GRAD0_opsz24.svg" class="" alt="..." width="70">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-medium">Grilování a pivo na sněhu</h5>
+            <p class="card-text fw-lighter">Pokud máte rádi grilování, zimní chaty často nabízejí venkovní grilovací
+              místo,
+              které můžete využít i v zimních měsících. Není nic lepšího než grilovačka s pivem.</p>
+          </div>
         </div>
-        <div class="py-2 col-md-3">
-            <img src="./images/kolbasa.png" alt="" width="110">
-            <h3 class="text-white fw-bolder">Venkovní grill</h3>
+      </div>
+      <div class="col-md-3" data-aos="fade-up">
+        <div class="card">
+          <div class="d-flex align-center justify-content-center">
+            <img src="./images/sports_bar_FILL0_wght400_GRAD0_opsz24.svg" class="" alt="..." width="70">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-medium">Lokální piva a pivovary</h5>
+            <p class="card-text fw-lighter">Prozkoumejte místní pivní kulturu a ochutnejte různé druhy piva přímo na
+              místě.
+              Toto je skvělý způsob, jak ochutnat exkluzivní pivní produkty.</p>
+          </div>
         </div>
-
-        <div class="p-2 col-md-3">
-            <img src="./images/pivo.png" alt="" width="110">
-            <h3 class="text-white fw-bolder">Neomezené pivo</h3>
+      </div>
+      <div class="col-md-3" data-aos="fade-up">
+        <div class="card">
+          <div class="d-flex align-center justify-content-center">
+            <img src="./images/hot_tub_FILL0_wght400_GRAD0_opsz24.svg" class="" alt="..." width="70">
+          </div>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-medium">Zimní aktivity</h5>
+            <p class="card-text fw-lighter">Sjezdové lyžování, běžky, snowboarding - možností je mnoho.
+              A po náročném dni na svahu si můžete odpočinout s chladným pivem a relaxovat v sauně.</p>
+          </div>
         </div>
-        <div class="p-2 col-md-3">
-            <img src="./images/stul.png" alt="" width="150">
-            <h3 class="text-white fw-bolder">Krásné posezení</h3>
-        </div>
+      </div>
 
-    </div>
-  </section>
-<section class="row">
-  <div class="card col-md-3">
-    <div class="d-flex align-center justify-content-center">
-    <img src="./images/chalet_FILL0_wght400_GRAD0_opsz24.svg" class="" alt="..." width="70">
-  </div>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div class="card col-md-3">
-    <div class="d-flex align-center justify-content-center">
-    <img src="./images//outdoor_grill_FILL0_wght400_GRAD0_opsz24(1).svg" class="" alt="..." width="70">
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div class="card col-md-3">
-    <div class="d-flex align-center justify-content-center">
-    <img src="./images/outdoor_grill_FILL0_wght400_GRAD0_opsz24.svg" class="" alt="..." width="70">
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-  <div class="card col-md-3">
-    <div class="d-flex align-center justify-content-center">
-    <img src="./images/sports_bar_FILL0_wght400_GRAD0_opsz24.svg" class="" alt="..." width="70">
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
+    </section>
 
-</section>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 
-</div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
 </html>
