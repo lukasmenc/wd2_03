@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-info">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="index.html">Chata U Uhelných Dolů</a> <button
+                class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link active text-white" aria-current="page"
+                            href="galerie.html">Galerie</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#">Ceník</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#">Kontakty</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="container-md">
+            <div id="carouselExampleAutoplaying" class="carousel slide  d-none d-md-block" data-bs-ride="carousel">
+              <div class="carousel-inner lh-1">
+                <div class="carousel-item active">
+                  <img src="./images/1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption ">
+                    <h2 class="fw-bold">Krásné ubytování</h2>
+                    <p>Vyjmečné ubytování v krásné přírodě uprostřed</p>
+                    <p>pivního ráje</p>
+                  </div>
+                </div>
+                <div class="carousel-item lh-1">
+                  <img src="./images/2.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="fw-bold">Chata U Uhelných Dolů</h2>
+                    <p>Jestli chcete skvělou dovolenou s dostatečným množstvím piva</p>
+                    <p>přišli jste na správné místo</p>
+                  </div>
+                </div>
+                <div class="carousel-item lh-1">
+                  <img src="./images/3.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="fw-bold">Chata U Uhelných Dolů</h2>
+                    <p>Jestli chcete skvělou dovolenou s dostatečným množstvím piva</p>
+                    <p>přišli jste na správné místo</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="container-md">
+                <form class="row g-3">
+                    <div class="col-12">
+                      <label for="inputEmail4" class="form-label">Jméno</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Jaromír Jágr">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">E-mail</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="jára@gmail.com">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Telefon</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="+420 274 842 740">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputState" class="form-label">Typ pokoje</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Pro jednoho</option>
+                          <option>Pro tři</option>
+                          <option>Pro čtyři</option>
+                          <option>Pro pět</option>
+                          <option>Pro šest</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputState" class="form-label">Od</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputState" class="form-label">Do</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Zarezervovat</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    <footer class="bg-secondary">
+        <h6 class="text-center text-white fw-light py-4">Vytvořil Lukáš Menc 2023</h6>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
